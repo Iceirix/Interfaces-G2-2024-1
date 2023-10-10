@@ -2,7 +2,7 @@
 
 namespace Interfaces_G2_2024_1
 {
-    internal class Estufa:LineaBlanca,IEncender,IApagar
+    internal class Estufa:Linea, IEncender, IApagar
     {
         internal Estufa()
         {
@@ -12,7 +12,7 @@ namespace Interfaces_G2_2024_1
 
         public void Apagar()
         {
-            Console.WriteLine("Apagando la estufa");
+            Console.WriteLine("Apagando la estufa\n");
         }
 
         public void Encender()

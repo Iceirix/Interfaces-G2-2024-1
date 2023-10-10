@@ -2,7 +2,7 @@
 
 namespace Interfaces_G2_2024_1
 {
-    internal abstract class LineaBlanca
+    internal abstract class Linea
     {
         private string marca;
 
